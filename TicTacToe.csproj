@@ -70,6 +70,15 @@
     <Compile Include="Dialog\CustomDialogFragment.cs" />
     <Compile Include="Dialog\IDialogListener.cs" />
     <Compile Include="Dialog\ShowCustomDialog.cs" />
+    <Compile Include="Logic\Game.cs" />
+    <Compile Include="Logic\IAndroidLogic.cs" />
+    <Compile Include="Logic\IWinnerChecker.cs" />
+    <Compile Include="Logic\Player.cs" />
+    <Compile Include="Logic\Square.cs" />
+    <Compile Include="Logic\WinnerCheckerDiagonalLeft.cs" />
+    <Compile Include="Logic\WinnerCheckerDiagonalRight.cs" />
+    <Compile Include="Logic\WinnerCheckerHorizontal.cs" />
+    <Compile Include="Logic\WinnerCheckerVertical.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="MainScreenActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
