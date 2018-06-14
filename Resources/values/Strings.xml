@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MainTitle">TIC TAE TOE</string>
+    <string name="ButtonUserGame">Игра на двоих</string>
+    <string name="ButtonAndroidGame">Игра c ботом</string>
+    <string name="ButtonExit">Выход</string>
+    <string name="ButtonNewGame">Новая игра</string>
+    <string name="ButtonMainScreen">Меню</string>
+    <string name="DialogBtnYes">Да</string>
+    <string name="DialogBtnNo">Нет</string>
+    <string name="Result">Ходов:</string>
+    <string name="ApplicationName">TicTaeToe</string>
+    <string name="MainScreenTitle">Main Sreen</string>
+</resources>

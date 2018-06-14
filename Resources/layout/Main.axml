@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <RelativeLayout
+        android:id="@+id/mainHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/txtvwTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/MainTitle"
+            android:gravity="top"
+            android:textSize="38sp"
+            android:paddingTop="30dp"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/mainContent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/mainHeader"
+        android:gravity="center">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnUserGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ButtonUserGame"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:background="@drawable/button_control" />
+            <Button
+                android:id="@+id/btnAndroidGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ButtonAndroidGame"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:background="@drawable/button_control" />
+            <Button
+                android:id="@+id/btnExit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ButtonExit"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:background="@drawable/button_control" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
